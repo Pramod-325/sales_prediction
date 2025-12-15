@@ -11,3 +11,9 @@
 4. [React Docs](https://react.dev/learn/thinking-in-react)
 
 
+## ML Model Creation
+
+1. [Geeks For Geeks – Sales Forecast Prediction](https://www.geeksforgeeks.org/python/sales-forecast-prediction-python)
+2. [Prophet – Open-source forecasting library by Meta](https://facebook.github.io/prophet/docs/quick_start.html#python-api)
+3. [LightGBM – Official Documentation](https://lightgbm.readthedocs.io/en/stable)
+4. [Time Series Forecasting using LightGBM – Geeks for Geeks](https://www.geeksforgeeks.org/machine-learning/time-series-using-lightgbm)
