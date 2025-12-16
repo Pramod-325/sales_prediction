@@ -62,11 +62,11 @@ async def seed_data():
     except Exception as e:
         print(f"   ❌ Error seeding forecasts: {e}")
 
-    # --- 3. Seed Metrics (Dummy or Read from log) ---
+    # --- 3. Seed Metrics Derived from Google Colab results of the model
     await db.modelmetric.create(data={
-        'wmape': 0.185,
-        'accuracy': 0.815,
-        'rmse': 124.5,
+        'wmape': 0.1511,
+        'accuracy': 0.8489,
+        'rmse': 2.22,
         'description': 'Initial Seed Run'
     })
     print("   ✅ Inserted initial metrics.")
