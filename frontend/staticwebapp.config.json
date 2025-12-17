@@ -1,0 +1,12 @@
+{
+    "routes": [
+    {
+      "route": "/api/*", 
+      "rewrite": "https://backendurl/api/*"
+    }
+  ],
+    "navigationFallback": {
+        "rewrite": "/index.html",
+        "exclude": ["*.{css,scss,js,png,gif,ico,jpg,svg}", "/api/*"]
+    }
+}
