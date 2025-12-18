@@ -1,11 +1,11 @@
-# 📊 Sale Prediction – Hybrid Sales Forecasting System
+#  Sale Prediction – Hybrid Sales Forecasting System
 
 A production-ready **Sales Prediction system** that forecasts future sales for multiple products using a **hybrid machine learning approach**.  
 The system is designed to deliver **accurate, business-oriented forecasts** even with **limited historical data**.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project predicts **weekly sales for 800+ products** over a **2-year forecast horizon**, using only **52 weeks of historical data**.  
 To overcome data constraints, a **Hybrid Ensemble Model** is used:
@@ -17,7 +17,7 @@ This approach combines **time-series forecasting** with **machine learning intel
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Forecast sales accurately with short historical data
 - Handle zero and intermittent sales
@@ -27,7 +27,7 @@ This approach combines **time-series forecasting** with **machine learning intel
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 ### Level 1: Facebook Prophet
 - Captures yearly seasonality and trend
@@ -41,7 +41,7 @@ This approach combines **time-series forecasting** with **machine learning intel
 
 ---
 
-## ⚙️ Data Pipeline
+##  Data Pipeline
 
 1. Convert wide-format sales data to long format
 2. Apply log transformation to stabilize variance
@@ -52,7 +52,7 @@ This approach combines **time-series forecasting** with **machine learning intel
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 - **WMAPE (Weighted Mean Absolute Percentage Error)**
 - **MAE (Mean Absolute Error)**
@@ -63,7 +63,7 @@ Metrics are selected to reflect **real business impact**.
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - Python 3.11
@@ -84,7 +84,7 @@ Metrics are selected to reflect **real business impact**.
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |------|--------|------------|
@@ -94,7 +94,7 @@ Metrics are selected to reflect **real business impact**.
 
 ---
 
-## 🖥️ Dashboard Features
+##  Dashboard Features
 
 - Sales history visualization
 - Forecast charts (weekly / monthly / yearly)
@@ -104,7 +104,7 @@ Metrics are selected to reflect **real business impact**.
 
 ---
 
-## ✅ Project Status
+##  Project Status
 
 - [x] Data pipeline implemented  
 - [x] Hybrid model trained and validated  
@@ -114,7 +114,7 @@ Metrics are selected to reflect **real business impact**.
 
 ---
 
-## 📌 Use Cases
+##  Use Cases
 
 - Demand forecasting
 - Inventory planning
