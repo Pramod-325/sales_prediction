@@ -74,7 +74,8 @@ jobs:
         with:
           app-name: 'aspyr-be-new'
           slot-name: 'Production'
-          startup-command: 'gunicorn --bind=0.0.0.0 --timeout 600 main:app'
+          startup-command: 'python3 -m prisma generate && python3 -m gunicorn --bind=0.0.0.0 --timeout 600 main:app'
 
           
+
 
