@@ -1,12 +1,12 @@
 {
     "routes": [
     {
-      "route": "/api/*", 
-      "rewrite": "https://backendurl/api/*"
+      "route": "/*", 
+      "rewrite": "https://backend-sp-e6hdfufvffh0b9cu.southeastasia-01.azurewebsites.net/*"
     }
   ],
     "navigationFallback": {
         "rewrite": "/index.html",
-        "exclude": ["*.{css,scss,js,png,gif,ico,jpg,svg}", "/api/*"]
+        "exclude": ["*.{css,scss,js,png,gif,ico,jpg,svg}", "/*","/api/*"]
     }
 }
