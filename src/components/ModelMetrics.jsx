@@ -107,7 +107,7 @@ export default function ModelMetrics() {
               {/* Forecast Accuracy Card */}
               <MetricCard
                 title="Forecast Accuracy"
-                value={`${(metrics.accuracy * 100).toFixed(2)}%`}
+                value={`${(metrics.accuracy).toFixed(2)}%`}
                 subtext="1 - Accuracy (Higher is better)"
                 icon={Target}
                 gradient="from-[#7cb342] to-[#9ccc65]"
@@ -116,7 +116,7 @@ export default function ModelMetrics() {
               {/* Error Rate Card */}
               <MetricCard
                 title="Error Rate (WMAPE)"
-                value={`${(metrics.wmape * 100).toFixed(2)}%`}
+                value={`${(metrics.wmape).toFixed(2)}%`}
                 subtext="Weighted Mean Abs Percentage Error"
                 icon={AlertCircle}
                 gradient="from-[#558b2f] to-[#7cb342]"
@@ -165,11 +165,11 @@ export default function ModelMetrics() {
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-gray-400 text-sm">Accuracy Level</span>
-                      <span className="text-[#9ccc65] font-semibold">{(metrics.accuracy * 100) >= 85 ? 'Excellent' : (metrics.accuracy * 100) >= 70 ? 'Good' : 'Fair'}</span>
+                      <span className="text-[#9ccc65] font-semibold">{(metrics.accuracy) >= 85 ? 'Excellent' : (metrics.accuracy) >= 70 ? 'Good' : 'Fair'}</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-gray-400 text-sm">Error Rate</span>
-                      <span className="text-[#7cb342] font-semibold">{(metrics.wmape * 100) < 10 ? 'Low' : (metrics.wmape *100) < 20 ? 'Moderate' : 'High'}</span>
+                      <span className="text-[#7cb342] font-semibold">{(metrics.wmape) < 10 ? 'Low' : (metrics.wmape) < 20 ? 'Moderate' : 'High'}</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-gray-400 text-sm">Model Age</span>
