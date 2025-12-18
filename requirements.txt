@@ -47,6 +47,8 @@ fastar==0.8.0
     # via fastapi-cloud-cli
 fonttools==4.61.1
     # via matplotlib
+gunicorn==23.0.0
+
 h11==0.16.0
     # via
     #   httpcore
