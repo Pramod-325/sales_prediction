@@ -38,6 +38,7 @@ jobs:
         with:
           name: python-app
           path: |
+            backend/
             .
             !antenv/
 
@@ -73,6 +74,7 @@ jobs:
         with:
           app-name: 'aspyr-be-new'
           slot-name: 'Production'
-          startup-command: 'python3 -m gunicorn main:app'
+          startup-command: 'gunicorn --bind=0.0.0.0 --timeout 600 main:app'
 
           
+
