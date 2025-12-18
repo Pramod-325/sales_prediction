@@ -73,4 +73,6 @@ jobs:
         with:
           app-name: 'aspyr-be-new'
           slot-name: 'Production'
+          startup-command: 'python3 -m gunicorn main:app'
+
           
