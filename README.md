@@ -22,12 +22,14 @@ This approach combines **time-series forecasting of Prophet** with **machine lea
 - Forecast sales accurately with short historical data
 - Handle zero and intermittent sales
 - Provide business-relevant evaluation metrics
-- Support batch forecasting and live retraining
+- Support batch forecasting and live retraining (Only at training phase)
 - Enable scalable deployment using APIs
 
 ---
 
 ##  Model Architecture
+<img src="https://github.com/Pramod-325/sales_prediction/blob/main/aspyr_sales_prediction_architecture.png">
+
 
 ### Level 1: Facebook Prophet
 - Captures yearly seasonality and trend
