@@ -7,6 +7,8 @@ The system is designed to deliver **accurate, business-oriented forecasts** even
 
 ##  Project Overview
 
+[👉 Video Demo Link](https://www.youtube.com/watch?v=ViSHSu7LOqU)
+
 This project predicts **weekly sales for 800+ products** over a **2-year forecast horizon**, using only **52 values/product of weekly of historical data**.  
 To overcome data constraints, a **Hybrid Ensemble Model** is used:
 
@@ -87,6 +89,10 @@ Metrics are selected to reflect **real business impact**.
 - Local filesystem (development)
 - Azure Blob Storage (production)
 
+---
+Our Deployment Overview can be seen here: [Output Dir](https://github.com/Pramod-325/sales_prediction/tree/main/deployment_clips)
+<br>
+Our Backend Deployment separately attached to this Repository (Check Github Actions tab): [Repo](https://github.com/Pramod-325/sales_prediction_be)
 ---
 
 ##  ✨To run Locally: (Follow the below steps)
