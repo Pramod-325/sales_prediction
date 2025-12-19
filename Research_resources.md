@@ -18,3 +18,4 @@
 3. [LightGBM – Official Documentation](https://lightgbm.readthedocs.io/en/stable)
 4. [Time Series Forecasting using LightGBM – Geeks for Geeks](https://www.geeksforgeeks.org/machine-learning/time-series-using-lightgbm)
 5. [Ensembling learning - Kaggle](https://www.kaggle.com/code/pavansanagapati/ensemble-learning-techniques-tutorial)
+6. [ARIMA vs Prophet vs LSTM models for Timeseries forecasting](https://neptune.ai/blog/arima-vs-prophet-vs-lstm)
