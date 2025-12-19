@@ -27,8 +27,11 @@ This approach combines **time-series forecasting of Prophet** with **machine lea
 
 ---
 
-##  Model Architecture
+##  Application Model Architecture
 <img src="https://github.com/Pramod-325/sales_prediction/blob/main/aspyr_sales_prediction_architecture.png">
+
+##  ML Model Creation and prediction Process Flow
+<img src="[https://github.com/Pramod-325/sales_prediction/blob/main/aspyr_sales_prediction_architecture.png](https://github.com/Pramod-325/sales_prediction/blob/main/ML_Model/model_creation.png)">
 
 
 ### Level 1: Facebook Prophet
