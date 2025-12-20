@@ -71,6 +71,15 @@ export default function LiveForecast() {
           </p>
         </div>
 
+        <div className="mb-6 bg-[#ef5350]/10 border border-[#ef5350]/30 rounded-xl p-4">
+            <p className="text-[#e57373] text-sm">
+              <strong className="flex items-center gap-2">
+                <span className="text-lg">⚠️</span> Critical Warning:
+              </strong> 
+              Initiating live re-training may cause temporary instability or discrepancies in current prediction forecast data. Proceed with caution.
+            </p>
+        </div>
+
         <div className="bg-[#004d7a] rounded-2xl border-2 border-[#005a8c] p-6">
           <div className="mb-6">
             <label className="block text-white text-sm font-medium mb-2">Product ID</label>
