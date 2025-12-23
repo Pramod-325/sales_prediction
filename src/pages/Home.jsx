@@ -80,6 +80,12 @@ export default function Home() {
             icon={<BarChart3 className="w-7 h-7" />} 
             description="Detailed performance analytics & KPIs"
           />
+          <Card 
+            title="Dashboard (incomplete ui)" 
+            path="/dashboard" 
+            icon={<BarChart3 className="w-7 h-7" />} 
+            description="Product comparision for forecasted sales"
+          />
         </div>
       </div>
     </div>
